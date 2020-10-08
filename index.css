@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  position: relative;
+  background: black;
+  height: 15550px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.section {
+  display: block;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.align-middle {
+  flex: 1;
+  text-align: center;
+  z-index: 2;
+}
+
+.item {
+  font-size: 15px;
+  padding: 16px;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.sticky-nav {
+  position: fixed;
+  color: whitesmoke;
+}
+
+.sticky-nav-title {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+}
+
+.sticky-nav-title a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px #000000;
+  font-size: 21px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.footer-main {
+  background-color: #1d1d1f;
+  color: #f5f5e8;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  text-align: center;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.footer-legal {
+  position: relative;
+  border-top: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 5px 0 5px;
+}
+
+.footer-legal-link {
+  border-right: 1px solid #d2d2d7;
+  margin-right: 7px;
+  padding-right: 10px;
+  display: inline-block;
+  margin-top: 5px;
+  white-space: nowrap;
+}
+
+.footer-legal-copyright {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.responsive {
+  position: fixed;
+  width: 100vw;
+  object-fit: contain;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 1281px) {
+  section .responsive {
+    height: 500px;
+  }
+}
+
+.div-content {
+  position: fixed;
+  color: white;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+  width: 100vw;
+}
+
+.div-content p {
+  font-size: 20px;
+  font-weight: 200;
+  padding: 100px 5px;
+  text-shadow: 1px 1px #000000;
+}
+
+.theme-btn {
+  position: absolute;
+  left: 0;
+}
+
+.theme-btn img {
+  height: 30px;
+  width: 30px;
+}
+.mac-content {
+  position: fixed;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+  width: 100vw;
+}

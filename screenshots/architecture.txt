@@ -1,0 +1,18 @@
+Server
+
+- api endpoint
+- apollo Server 
+- data set
+
+
+Client:
+
+- React App
+- make server api
+- fetch function
+- Apollo client 
+
+
+Query - Class Compoenet - > scroll event -> data ->data.sections -  sections: array of objects
+
+Folder structure 

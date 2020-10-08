@@ -1,0 +1,1 @@
+{"ast":null,"code":"function sectionInfo(payload) {\n  return {\n    type: \"ADD_SECTION\",\n    payload\n  };\n}\n\nexport default sectionInfo;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { combineReducers } from \"redux\";\nimport sectionReducer from \"./sectionReducer\";\nconst rootReducer = combineReducers({\n  sectionState: sectionReducer\n});\nexport default rootReducer;","map":null,"metadata":{},"sourceType":"module"}

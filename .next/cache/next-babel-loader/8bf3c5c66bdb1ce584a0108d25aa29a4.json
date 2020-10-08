@@ -1,0 +1,1 @@
+{"ast":null,"code":"//Context example to change nav bar  theme\nimport React from \"react\";\nexport const themes = {\n  dark: {\n    background: \"black\"\n  },\n  light: {\n    background: \"grey\"\n  }\n};\nconst ThemeContext = /*#__PURE__*/React.createContext(themes.dark);\nexport default ThemeContext;","map":null,"metadata":{},"sourceType":"module"}

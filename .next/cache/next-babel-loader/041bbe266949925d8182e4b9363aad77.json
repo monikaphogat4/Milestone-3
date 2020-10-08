@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport Index from \"../components/Index\";\n\nconst IndexPage = () => {\n  return __jsx(Index, null);\n};\n\nexport default IndexPage;","map":null,"metadata":{},"sourceType":"module"}

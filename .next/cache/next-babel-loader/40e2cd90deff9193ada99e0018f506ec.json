@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport Index from \"../components/Index\";\n\nvar MacPage = function MacPage() {\n  return __jsx(\"div\", {\n    className: \"mac-content\"\n  }, \"Explore macbook options\");\n};\n\nexport default MacPage;","map":null,"metadata":{},"sourceType":"module"}
